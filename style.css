@@ -1,0 +1,63 @@
+#gamezone{
+    background-color: rgba(99, 99, 226,0.3);
+    width: 867px;
+    height: 350px;
+    border: solid 1px black;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(https://pic.rutubelist.ru/video/77/80/778089083c7b447d559a66cfe82a9681.jpg);
+    background-size: cover;
+   
+    
+}
+
+.character{
+    background-color: rgb(255, 0, 242);
+    width: 170px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px ;
+    float: left;
+    padding-left: 14px;
+    padding-top: 20px;
+    
+    background-image: url(https://res.cloudinary.com/teepublic/image/private/s--LJ8ya9aL--/t_Preview/b_rgb:eae0c7,c_lpad,f_jpg,h_630,q_90,w_1200/v1462383955/production/designs/502545_1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+.naruto{
+    background-image: url(https://yt3.googleusercontent.com/460ICJ2-JpWYtOEj2Z4bOSCbSgHgRJNgb-80kU1RHqXZzzSLUzMyKDXXSxeC0937AdG-fmcIEmM=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+input{
+    margin-left: 43%;
+    margin-bottom: 10px;
+    margin-top: 400px;
+    width: 14%;
+    height: 80px;
+    background-color: rgba(245, 212, 169, 0.9);
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=d7a2a1f1caa56123cee2b8a67dc5d66ec39661d3-8428826-images-thumbs&n=13);
+    background-size: cover;
+}
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
